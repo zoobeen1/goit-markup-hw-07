@@ -19,47 +19,52 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!--! Section Header -->
     <header class="header">
       <div class="container">
         <div class="flexer">
-          <nav class="header-navigation">
-            <a href="./" class="logo"><span class="blue">Web</span>Studio</a>
-            <ul class="header-list">
-              <li class="header-item">
-                <a href="./" class="header-link">Студия</a>
+          <nav class="header-nav">
+            <a href="./" class="logo">
+              <span class="brand-color1">Web</span>Studio</a
+            >
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="./" class="header__link"> Студия </a>
               </li>
-              <li class="header-item">
-                <a href="./portfolio.html" class="header-link current"
-                  >Портфолио</a
-                >
+              <li class="header__item">
+                <a
+                  href="./portfolio.html"
+                  class="header__link header__link--current"
+                  >Портфолио
+                </a>
               </li>
-              <li class="header-item">
-                <a href="/contact/" class="header-link">Контакты</a>
+              <li class="header__item">
+                <a href="#contact" class="header__link">Контакты</a>
               </li>
             </ul>
           </nav>
-
-          <ul class="head-address-list">
-            <li class="head-address-item">
-              <a href="mailto:info@dewstudio.com" class="head-address-link">
-                <svg class="head-address-icon" width="16" height="12">
+          <ul class="address-list">
+            <li class="address-list__item">
+              <a href="mailto:info@dewstudio.com" class="address-list__link">
+                <svg class="address-list__icon" width="16" height="12">
                   <use href="./images/icons.svg#envelope"></use>
                 </svg>
-                <p>info@dewstudio.com</p>
+                <p class="address-list__text">info@dewstudio.com</p>
               </a>
             </li>
-            <li class="head-address-item">
-              <a href="tel:+380961111111" class="head-address-link">
-                <svg class="head-address-icon" width="10" height="16">
+            <li class="address-list__item">
+              <a href="tel:+380961111111" class="address-list__link">
+                <svg class="address-list__icon" width="10" height="16">
                   <use href="./images/icons.svg#smartphone"></use>
                 </svg>
-                <p>+38 096 111 11 11</p>
+                <p class="address-list__text">+38 096 111 11 11</p>
               </a>
             </li>
           </ul>
         </div>
       </div>
     </header>
+    <!-- MAIN -->
     <main class="portfolio-main">
       <section class="portfolio section">
         <div class="container">
@@ -303,74 +308,78 @@
         </div>
       </section>
     </main>
-    <!--! FOOTER  -->
+    <!--! Footer -->
     <footer class="footer">
-      <div class="container footer-content">
-        <div class="footer-left">
-          <a href="./" class="logo"><span class="blue">Web</span>Studio</a>
-          <address class="address">
+      <div class="container footer__content">
+        <div class="footer__contact">
+          <a href="./" class="logo logo--footer">
+            <span class="brand-color1">Web</span>Studio
+          </a>
+          <address class="address" id="contact">
             <p>г.Киев, пр-т Леси Украинки, 26</p>
-            <a class="footer-link" href="mailto:info@dewstudio.com">
+            <a class="address-link" href="mailto:info@dewstudio.com">
               info@example.com
             </a>
-            <a class="footer-link" href="tel:+380991111111"
+            <a class="address-link" href="tel:+380991111111"
               >+38 099 111 11 11</a
             >
           </address>
         </div>
-        <div class="invite">
-          <h2 class="invite-title">Присоединяйтесь</h2>
+        <div class="footer-invite">
+          <h2 class="footer-invite__title">Присоединяйтесь</h2>
+          <!-- Invite block -->
           <ul class="invite-list">
-            <li class="invite-item">
-              <a href="" class="invite-link">
-                <svg class="invite-icon" width="20" height="20">
+            <li class="invite-list__item">
+              <a href="" class="invite-list__link invite-list__link--grey">
+                <svg class="invite-list__icon" width="20" height="20">
                   <use href="./images/icons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="invite-item">
-              <a href="" class="invite-link">
-                <svg class="invite-icon" width="20" height="20">
+            <li class="invite-list__item">
+              <a href="" class="invite-list__link invite-list__link--grey">
+                <svg class="invite-list__icon" width="20" height="20">
                   <use href="./images/icons.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="invite-item">
-              <a href="" class="invite-link">
-                <svg class="invite-icon" width="20" height="20">
+            <li class="invite-list__item">
+              <a href="" class="invite-list__link invite-list__link--grey">
+                <svg class="invite-list__icon" width="20" height="20">
                   <use href="./images/icons.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="invite-item">
-              <a href="" class="invite-link">
-                <svg class="invite-icon" width="20" height="20">
+            <li class="invite-list__item">
+              <a href="" class="invite-list__link invite-list__link--grey">
+                <svg class="invite-list__icon" width="20" height="20">
                   <use href="./images/icons.svg#linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
+        <!-- Footer Form -->
         <form
-          class="footer-form"
+          class="subscribe"
           autocomplete="off"
           method="POST"
           action="javascript:void(0);"
         >
-          <label for="email" class="footer-form-label"
+          <label for="email" class="subcribe__label"
             >ПОДПИШИТЕСЬ НА РАССЫЛКУ
           </label>
-          <div class="footer-form-content">
+          <div class="subcribe__content">
             <input
               type="email"
               name="email"
               id="email"
               placeholder="E-mail"
-              class="footer-form-imput"
+              class="subcribe__imput"
             />
-            <button type="submit" class="footer-form-button">
-              <p class="footer-form-button-caption">Подписаться</p>
-              <svg class="footer-form-button-icon" width="24" height="24">
+            <button class="button" type="submit">
+              Подписаться
+              <svg class="button__icon" width="24" height="24">
                 <use href="./images/icons.svg#send"></use>
               </svg>
             </button>
