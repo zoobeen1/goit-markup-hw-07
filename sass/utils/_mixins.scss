@@ -1,4 +1,4 @@
-@mixin font-base($fs:16, $fw:400, $lhp:12, $ls:0.03) {
+@mixin font-base($fs:16, $fw:400, $lhp:18, $ls:0.03) {
 	$lh: $lhp/$fs;
 	font-size: $fs + px;
 	font-weight: $fw;

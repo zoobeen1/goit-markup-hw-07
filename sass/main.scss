@@ -1,15 +1,11 @@
 @import './base/modul';
-@import './components/modul';
 @import './layout/modul';
 @import './pages/modul';
 @import './themes/modul';
-@import './utils/modul';
 @import './vendors/modul';
-
-
-
 @import './utils/mixins';
 
+
 // .test {
-// @include font-base(14,300,16);
+// 	@include font-base(12, 700, 14, 0.3);
 // }

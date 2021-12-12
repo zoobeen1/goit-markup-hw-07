@@ -23,21 +23,24 @@
     <header class="header">
       <div class="container">
         <div class="flexer">
-          <nav class="header-nav">
-            <a href="./" class="logo"
-              ><span class="brand-color1">Web</span>Studio</a
-            >
-            <ul class="header__list">
-              <li class="header__item">
-                <a href="./" class="header__link header__link--current"
+          <a href="./" class="logo">
+            <span class="brand-color1">Web</span>
+            Studio
+          </a>
+          <nav class="navigation">
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a href="./" class="navigation__link navigation__link--current"
                   >Студия</a
                 >
               </li>
-              <li class="header__item">
-                <a href="./portfolio.html" class="header__link">Портфолио</a>
+              <li class="navigation__item">
+                <a href="./portfolio.html" class="navigation__link"
+                  >Портфолио</a
+                >
               </li>
-              <li class="header__item">
-                <a href="#contact" class="header__link">Контакты</a>
+              <li class="navigation__item">
+                <a href="#contact" class="navigation__link">Контакты</a>
               </li>
             </ul>
           </nav>
@@ -69,7 +72,7 @@
         <div class="hero__content">
           <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
           <button
-            class="button button--center"
+            class="button hero__button"
             id="data-modal-open"
             type="button"
             data-modal-open
@@ -166,9 +169,9 @@
         </div>
       </section>
       <!-- ! Section Command -->
-      <section class="our-command">
+      <section class="command">
         <div class="container">
-          <h2 class="our-command__title">Наша команда</h2>
+          <h2 class="command__title">Наша команда</h2>
           <ul class="command-list">
             <li class="command-list__item">
               <img
@@ -179,31 +182,31 @@
               <h3 class="command-list__label">Игорь Демьяненко</h3>
               <p class="command-list__text" lang="en">Product Designer</p>
               <!-- Invite block -->
-              <ul class="invite-list">
-                <li class="invite-list__item">
-                  <a href="" class="invite-list__link">
-                    <svg class="invite-list__icon" width="20" height="20">
+              <ul class="invite">
+                <li class="invite__item">
+                  <a href="" class="invite__link">
+                    <svg class="invite__icon" width="20" height="20">
                       <use href="./images/icons.svg#instagram"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="invite-list__item">
-                  <a href="" class="invite-list__link">
-                    <svg class="invite-list__icon" width="20" height="20">
+                <li class="invite__item">
+                  <a href="" class="invite__link">
+                    <svg class="invite__icon" width="20" height="20">
                       <use href="./images/icons.svg#twitter"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="invite-list__item">
-                  <a href="" class="invite-list__link">
-                    <svg class="invite-list__icon" width="20" height="20">
+                <li class="invite__item">
+                  <a href="" class="invite__link">
+                    <svg class="invite__icon" width="20" height="20">
                       <use href="./images/icons.svg#facebook"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="invite-list__item">
-                  <a href="" class="invite-list__link">
-                    <svg class="invite-list__icon" width="20" height="20">
+                <li class="invite__item">
+                  <a href="" class="invite__link">
+                    <svg class="invite__icon" width="20" height="20">
                       <use href="./images/icons.svg#linkedin"></use>
                     </svg>
                   </a>
@@ -219,31 +222,31 @@
               <h3 class="command-list__label">Ольга Репина</h3>
               <p class="command-list__text" lang="en">Frontend Developer</p>
               <!-- Invite block -->
-              <ul class="invite-list">
-                <li class="invite-list__item">
-                  <a href="" class="invite-list__link">
-                    <svg class="invite-list__icon" width="20" height="20">
+              <ul class="invite">
+                <li class="invite__item">
+                  <a href="" class="invite__link">
+                    <svg class="invite__icon" width="20" height="20">
                       <use href="./images/icons.svg#instagram"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="invite-list__item">
-                  <a href="" class="invite-list__link">
-                    <svg class="invite-list__icon" width="20" height="20">
+                <li class="invite__item">
+                  <a href="" class="invite__link">
+                    <svg class="invite__icon" width="20" height="20">
                       <use href="./images/icons.svg#twitter"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="invite-list__item">
-                  <a href="" class="invite-list__link">
-                    <svg class="invite-list__icon" width="20" height="20">
+                <li class="invite__item">
+                  <a href="" class="invite__link">
+                    <svg class="invite__icon" width="20" height="20">
                       <use href="./images/icons.svg#facebook"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="invite-list__item">
-                  <a href="" class="invite-list__link">
-                    <svg class="invite-list__icon" width="20" height="20">
+                <li class="invite__item">
+                  <a href="" class="invite__link">
+                    <svg class="invite__icon" width="20" height="20">
                       <use href="./images/icons.svg#linkedin"></use>
                     </svg>
                   </a>
@@ -259,31 +262,31 @@
               <h3 class="command-list__label">Николай Тарасов</h3>
               <p class="command-list__text" lang="en">Marketing</p>
               <!-- Invite block -->
-              <ul class="invite-list">
-                <li class="invite-list__item">
-                  <a href="" class="invite-list__link">
-                    <svg class="invite-list__icon" width="20" height="20">
+              <ul class="invite">
+                <li class="invite__item">
+                  <a href="" class="invite__link">
+                    <svg class="invite__icon" width="20" height="20">
                       <use href="./images/icons.svg#instagram"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="invite-list__item">
-                  <a href="" class="invite-list__link">
-                    <svg class="invite-list__icon" width="20" height="20">
+                <li class="invite__item">
+                  <a href="" class="invite__link">
+                    <svg class="invite__icon" width="20" height="20">
                       <use href="./images/icons.svg#twitter"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="invite-list__item">
-                  <a href="" class="invite-list__link">
-                    <svg class="invite-list__icon" width="20" height="20">
+                <li class="invite__item">
+                  <a href="" class="invite__link">
+                    <svg class="invite__icon" width="20" height="20">
                       <use href="./images/icons.svg#facebook"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="invite-list__item">
-                  <a href="" class="invite-list__link">
-                    <svg class="invite-list__icon" width="20" height="20">
+                <li class="invite__item">
+                  <a href="" class="invite__link">
+                    <svg class="invite__icon" width="20" height="20">
                       <use href="./images/icons.svg#linkedin"></use>
                     </svg>
                   </a>
@@ -299,31 +302,31 @@
               <h3 class="command-list__label">Михаил Ермаков</h3>
               <p class="command-list__text" lang="en">UI Designer</p>
               <!-- Invite block -->
-              <ul class="invite-list">
-                <li class="invite-list__item">
-                  <a href="" class="invite-list__link">
-                    <svg class="invite-list__icon" width="20" height="20">
+              <ul class="invite">
+                <li class="invite__item">
+                  <a href="" class="invite__link">
+                    <svg class="invite__icon" width="20" height="20">
                       <use href="./images/icons.svg#instagram"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="invite-list__item">
-                  <a href="" class="invite-list__link">
-                    <svg class="invite-list__icon" width="20" height="20">
+                <li class="invite__item">
+                  <a href="" class="invite__link">
+                    <svg class="invite__icon" width="20" height="20">
                       <use href="./images/icons.svg#twitter"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="invite-list__item">
-                  <a href="" class="invite-list__link">
-                    <svg class="invite-list__icon" width="20" height="20">
+                <li class="invite__item">
+                  <a href="" class="invite__link">
+                    <svg class="invite__icon" width="20" height="20">
                       <use href="./images/icons.svg#facebook"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="invite-list__item">
-                  <a href="" class="invite-list__link">
-                    <svg class="invite-list__icon" width="20" height="20">
+                <li class="invite__item">
+                  <a href="" class="invite__link">
+                    <svg class="invite__icon" width="20" height="20">
                       <use href="./images/icons.svg#linkedin"></use>
                     </svg>
                   </a>
@@ -388,47 +391,47 @@
     <footer class="footer">
       <div class="container footer__content">
         <div class="footer__contact">
-          <a href="./" class="logo logo--footer">
+          <a href="./" class="logo footer--logo">
             <span class="brand-color1">Web</span>Studio
           </a>
           <address class="address" id="contact">
             <p>г.Киев, пр-т Леси Украинки, 26</p>
-            <a class="address-link" href="mailto:info@dewstudio.com">
+            <a class="address__link" href="mailto:info@dewstudio.com">
               info@example.com
             </a>
-            <a class="address-link" href="tel:+380991111111"
+            <a class="address__link" href="tel:+380991111111"
               >+38 099 111 11 11</a
             >
           </address>
         </div>
-        <div class="footer-invite">
-          <h2 class="footer-invite__title">Присоединяйтесь</h2>
+        <div class="footer__invite">
+          <h2 class="footer__title">Присоединяйтесь</h2>
           <!-- Invite block -->
-          <ul class="invite-list">
-            <li class="invite-list__item">
-              <a href="" class="invite-list__link invite-list__link--grey">
-                <svg class="invite-list__icon" width="20" height="20">
+          <ul class="invite">
+            <li class="invite__item">
+              <a href="" class="invite__link footer--invite">
+                <svg class="invite__icon" width="20" height="20">
                   <use href="./images/icons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="invite-list__item">
-              <a href="" class="invite-list__link invite-list__link--grey">
-                <svg class="invite-list__icon" width="20" height="20">
+            <li class="invite__item">
+              <a href="" class="invite__link footer--invite">
+                <svg class="invite__icon" width="20" height="20">
                   <use href="./images/icons.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="invite-list__item">
-              <a href="" class="invite-list__link invite-list__link--grey">
-                <svg class="invite-list__icon" width="20" height="20">
+            <li class="invite__item">
+              <a href="" class="invite__link footer--invite">
+                <svg class="invite__icon" width="20" height="20">
                   <use href="./images/icons.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="invite-list__item">
-              <a href="" class="invite-list__link invite-list__link--grey">
-                <svg class="invite-list__icon" width="20" height="20">
+            <li class="invite__item">
+              <a href="" class="invite__link footer--invite">
+                <svg class="invite__icon" width="20" height="20">
                   <use href="./images/icons.svg#linkedin"></use>
                 </svg>
               </a>
@@ -442,18 +445,18 @@
           method="POST"
           action="javascript:void(0);"
         >
-          <label for="email" class="subcribe__label"
+          <label for="email" class="footer__title"
             >ПОДПИШИТЕСЬ НА РАССЫЛКУ
           </label>
-          <div class="subcribe__content">
+          <div class="subscribe__content">
             <input
               type="email"
               name="email"
               id="email"
               placeholder="E-mail"
-              class="subcribe__imput"
+              class="subscribe__imput"
             />
-            <button class="button" type="submit">
+            <button class="button subscribe__button" type="submit">
               Подписаться
               <svg class="button__icon" width="24" height="24">
                 <use href="./images/icons.svg#send"></use>
@@ -472,7 +475,6 @@
             <use href="./images/icons.svg#close"></use>
           </svg>
         </button>
-
         <h2 class="modal__title">Оставьте свои данные, мы вам перезвоним</h2>
         <form
           class="call-form"
@@ -516,14 +518,14 @@
             ></textarea>
           </div>
           <div class="call-form__check_item">
-            <input
-              class="call-form__check"
-              type="checkbox"
-              name="check"
-              id="check"
-            />
             <label class="call-form__check_label" for="check">
-              <span>
+              <input
+                class="call-form__check"
+                type="checkbox"
+                name="check"
+                id="check"
+              />
+              <span class="call-form__check-border">
                 <svg class="call-form__chekbox" width="16" height="15">
                   <use href="./images/icons.svg#check"></use>
                 </svg>
